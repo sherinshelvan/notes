@@ -1,0 +1,298 @@
+/*------- import css ---------*/
+
+<link rel="stylesheet" media='screen and (min-width: 200px) and (max-width: 400px)' href='stylesheet.css' />
+@import '../bootstrap/assets/stylesheets/bootstrap';
+@import 'http: //192.168.0.209/uploads/css/inline.css';
+@media (max-width:2580px) and (min-width:1620px) { }
+@media (max-width:768px) { }
+
+/* -- https://stackoverflow.com/questions/14499524/what-is-this-vertical-transparent-line-appearing-only-on-safari-mac */
+btc.vertical-line add this to main container{
+-webkit-background-clip: padding-box;
+}
+
+
+label {-webkit-tap-highlight-color: transparent;}
+/*-------- flex -------------*/
+
+.course_details ul { display: flex; flex-basis: 0; }
+.course_details ul li { flex-basis: 100%; }
+
+body.page-id-5645 .solar-main-bg .Container { -webkit-flex-direction: column-reverse; flex-direction: column-reverse; display: flex; }
+
+
+
+
+.app-menu ul { display: -webkit-flex; display: flex; }
+.app-menu ul li { -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+
+.adjetivos-wrapper { display: flex; flex-wrap: wrap; }
+.adjetivos-wrapper .item { flex: 0 0 50%; max-width: 50%; float: left; }
+
+.flex-col-4 { -webkit-box-flex: 0; -webkit-flex: 0 0 33.333333%; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 33.333333%; }
+
+
+/*--------- Full width ---------*/
+#banner-img-calendar img {
+	width: 100vw;
+	position: relative;
+	margin-left: -50vw;
+	left: 50%;
+	max-width: none;
+}
+
+/*------- Selector -------------*/
+
+[class^='icon-'] - classes starting with 'icon-' (eg. class='icon-blah blah')
+[class$='-icon'] - classes ending with '-icon'   (eg. class='blah blah-icon')
+[class*='icon']  - classes containing 'icon'     (eg. class='blah xxx-icon-blah')
+
+div[class*="language-"], div [id^="cke_target_"], div [id*="cke_target_"] { background: #f00; }
+
+
+/*------- path ----------*/
+
+.team [class*=-clip] {
+    -webkit-transition: all .4s cubic-bezier(.075,.82,.165,1);
+    transition: all .4s cubic-bezier(.075,.82,.165,1);
+}
+.clip img{
+    -webkit-clip-path: polygon(20% 0,0 20%,30% 50%,0 80%,20% 100%,50% 70%,80% 100%,100% 80%,70% 50%,100% 20%,80% 0,50% 30%);
+    clip-path: polygon(20% 0,0 20%,30% 50%,0 80%,20% 100%,50% 70%,80% 100%,100% 80%,70% 50%,100% 20%,80% 0,50% 30%);
+}
+.clip:hover img{
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+}
+
+
+/*--------- Reset css ---------*/
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.btn:focus, .btn:active:focus, .btn.active:focus { outline: none; outline: none; outline-offset: 0; box-shadow: none; }
+input:focus, textarea:focus, select:focus { outline: none; }
+a:focus, a:hover, a:active { outline: none !important; }
+
+/*--------- Text wrap --------*/
+
+.word_wrap {
+	word-wrap: break-word;
+}
+
+
+/*--------- css3  ---------*/
+.calc{
+	width: width: calc(100% / 3 - 57px);
+}
+.calc {
+	width: calc(100% - 110px);
+}
+
+.calc{
+	width:0 calc((( 1280px - 100vw) / 2) - 15px);
+}
+.calc{
+	width:20px calc(((100vw - 1280px) / 2) + 15px);
+}
+
+
+.shadow {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .10);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .10);
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, .10);
+	-ms-box-shadow: 0 1px 1px rgba(0, 0, 0, .10);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .10);
+}
+
+.radius {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.rotate {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+/*------- middle align  ----------*/
+
+.movie-header .ytube-play {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.archive-job_listing-filter-title {
+	margin: 2em 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/*-----------slice effect -------*/
+
+.price-table:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: -15%;
+	width: 65%;
+	height: 100%;
+	background-color: #e9eced;
+	-webkit-transform: skewX(-7deg);
+	-moz-transform: skewX(-7deg);
+	-ms-transform: skewX(-7deg);
+	-o-transform: skewX(-7deg);
+	transform: skewX(-7deg);
+}
+
+
+/*--------- row counter ----*/
+table { counter-reset: row-num; }
+table tr { counter-increment: row-num; }
+table tr td:first-child::before { content: counter(row-num) ". "; }
+
+
+
+/*--------- iframe responsive -------*/
+.videowrapper {
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*--------- Trim text ----------*/
+
+.view-shop .views-row .views-field-title a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	line-height: 24px;
+	max-height: 32px;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+/*-------- replace text -----*/
+.replace {
+	text-indent: -9999px;
+	line-height: 0;
+}
+
+.replace::after {
+	content: "New text";
+	text-indent: 0;
+	display: block;
+	line-height: initial;
+}
+
+
+/*------------- Last and first item ------------*/
+div:first-child { white-space: nowrap; }
+div:last-child { white-space: nowrap; }
+p:nth-child(2) { background: red; }
+tr:nth-child(even) { background: #CCC }
+tr:nth-child(odd) { background: #FFF }
+/* ---- repeate 5th item ------- */
+table tr:nth-of-type(5n) { background: #fc3; }
+
+
+/*------------- Css3 animation ---------*/
+.anim {
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
+/*------------- Css3 animation ---------*/
+.scroll-left span {
+	-webkit-animation: scroll_left 2s infinite linear;
+	-ms-animation: scroll_left 2s infinite linear;
+	-o-animation: scroll_left 2s infinite linear;
+	-moz-animation: scroll_left 2s infinite linear;
+	animation: scroll_left 2s infinite linear;
+	white-space: nowrap;
+}
+
+@-webkit-keyframes scroll_left {
+	0% {
+		right: -100%;
+	}
+
+	100% {
+		right: 100%
+	}
+
+}
+
+@keyframes scroll_left {
+	0% {
+		right: -100%;
+	}
+
+	100% {
+		right: 100%
+	}
+
+}
+
+
+
+
+/*------------ hover img animation ---*/
+img {
+	transition: all 1s ease-in-out;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+div:hover img {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+/* ------------- ajax [html]---------------*/
+<div class="ajax-progress ajax-progress-throbber"><div class="throbber">&nbsp;</div></div>
+<div class="ajax-progress ajax-progress-throbber"><div class="throbber">&nbsp;</div><div class="message">Please wait...</div></div>
+
+
+
+.account-settings .select-wrapper .ajax-progress-throbber{
+	background:none;
+	padding-left:6px;
+}
+.account-settings .select-wrapper .ajax-progress-throbber .throbber{
+    background: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    border: 2px solid #009688;
+    border-top-color: transparent;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}

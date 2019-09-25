@@ -1,0 +1,20 @@
+.close-wrapper { padding: 5px; position: relative; }
+.close-wrapper .close { position: absolute; top: 0px; right: 7px; text-decoration: none; color: #000; font-size: 25px; font-weight: 1000; transform: rotate(45deg); }
+.main .container {width: auto; max-width: none;}
+body{min-height:100vh;}
+
+ul#nav-mobile {
+    background: #232323;
+}
+.sidenav li>a>i.material-icons ,
+.sidenav li>a{ color:#9c9c9c;}
+
+ul#dropdown1 {
+    width: 200px !important;
+    top: 63px !important;
+}
+
+@media(min-width:993px) {
+	.top-menu { padding-left: 320px; padding-right: 40px; }
+	.main { padding-left: 320px; padding-top: 20px; padding-right: 40px; }
+}

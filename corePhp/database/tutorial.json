@@ -1,0 +1,34 @@
+[
+    {
+        "id": "5d87424154ba5",
+        "title": "Reset css",
+        "category": "5d8741c41b767",
+        "content": "<code>\r\n* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }\r\n.btn:focus, .btn:active:focus, .btn.active:focus { outline: none; outline: none; outline-offset: 0; box-shadow: none; }\r\ninput:focus, textarea:focus, select:focus { outline: none; }\r\na:focus, a:hover, a:active { outline: none !important; }\r\n<\/code>",
+        "files": {
+            "file_path": "assets\/uploads\/",
+            "details": [
+                {
+                    "name": "1.png",
+                    "type": "image\/png"
+                }
+            ]
+        },
+        "status": 1
+    },
+    {
+        "id": "5d8742791b984",
+        "title": "Full width",
+        "category": "5d8741a9b699f",
+        "content": "<code>\r\n    #banner-img-calendar img {\r\n    width: 100vw;\r\n    position: relative;\r\n    margin-left: -50vw;\r\n    left: 50%;\r\n    max-width: none;\r\n}\r\n<\/code>",
+        "files": [],
+        "status": 1
+    },
+    {
+        "id": "5d8869c09c1e9",
+        "title": "anju",
+        "category": "5d8869d2a5bc8",
+        "content": "3w432v45rtyrty rtyrty",
+        "files": [],
+        "status": 1
+    }
+]
